@@ -7,6 +7,13 @@
     <title>imagens dinamicas</title>
 </head>
 <body>
-    
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em varios dipositovos diferentes ou simplesmente aumente e diminua o tamanho de seu navegador</p>
+
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagem flexivel">
+</picture>
 </body>
 </html>
